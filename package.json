@@ -1,0 +1,24 @@
+{
+  "name": "@rds-website-www/website-www-constants2",
+  "version": "1.0.0",
+  "description": "This npm package stores the important constants for website-www.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAYATEJA04/website-www-constants.git"
+  },
+  "keywords": [
+    "constants",
+    "RDS",
+    "website"
+  ],
+  "author": "Jaya Teja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAYATEJA04/website-www-constants/issues"
+  },
+  "homepage": "https://github.com/JAYATEJA04/website-www-constants#readme"
+}
