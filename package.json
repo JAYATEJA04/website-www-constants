@@ -1,5 +1,5 @@
 {
-  "name": "@rds-website-www/website-www-constants2",
+  "name": "@rds-website-www/website-www-constants",
   "version": "1.0.1",
   "description": "This npm package stores the important constants for website-www.",
   "main": "index.js",
