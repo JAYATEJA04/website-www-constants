@@ -4,7 +4,7 @@ This repository contains the important constants for <a href="https://github.com
 
 ## How to use these constants?
 
-To use the constants in website-www, first you need to install the package. To install the package, run `npm i @rds-website-www/website-www-constants2` in your editor.
+To use the constants in website-www, first you need to install the package. To install the package, run `npm i @rds-website-www/website-www-constants` in your editor.
 
 ## How to contribute in the package?
 
