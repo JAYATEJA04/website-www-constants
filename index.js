@@ -116,16 +116,24 @@ const LOGOUT_URL = "https://api.realdevsquad.com/auth/signout";
 const MAIN_SITE_URL = "https://realdevsquad.com/";
 
 // signup.js
-export const GOTO_URL = "https://realdevsquad.com/goto";
-export const AUTH_URL =
+const GOTO_URL = "https://realdevsquad.com/goto";
+const AUTH_URL =
   "https://github.com/login/oauth/authorize?client_id=23c78f66ab7964e5ef97";
+
+// #website-dashboard - link: https://github.com/Real-Dev-Squad/website-dashboard/blob/develop/online-members/constants.js
+// constants.js -> RDS Api Constants
+const RDS_API_MEMBERS = "https://api.realdevsquad.com/members";
+const RDS_API_TASKS_USERS = "https://api.realdevsquad.com/tasks";
+const RDS_CLOUDINARY_CLOUD_URL = `https://res.cloudinary.com/realdevsquad/image/upload`;
+
+const RDS_SSE_ONLINE_URL = "https://online.realdevsquad.com/online-members";
 
 module.exports = {
   //website-www
   MAP_CONTAINER_ID: MAP_CONTAINER_ID,
   MAP_STYLE: MAP_STYLE,
   MAP_ZOOM: MAP_ZOOM,
-  MAP_COORDINATES: MAP_CONTAINER_ID,
+  MAP_COORDINATES: MAP_COORDINATES,
   BASE_URL: BASE_URL,
   JOIN_POST_URL: JOIN_POST_URL,
   SELF_URL: SELF_URL,
@@ -134,15 +142,8 @@ module.exports = {
   //website-backend
   // cloudflareCache.js
   MAX_CACHE_PURGE_COUNT: MAX_CACHE_PURGE_COUNT,
+  CLOUDFLARE_ZONE_ID: CLOUDFLARE_ZONE_ID,
   CLOUDFLARE_PURGE_CACHE_API: CLOUDFLARE_PURGE_CACHE_API,
-
-  // errorMessages.js
-  INTERNAL_SERVER_ERROR: "An internal server error occurred",
-  SOMETHING_WENT_WRONG:
-    "Something went wrong. Please try again or contact admin",
-  ONLY_IMAGE_SUPPORTED: "Only image/jpeg, image/png supported",
-  ONLY_ONE_FILE_ALLOWED: "Only one file allowed",
-  FILE_TOO_LARGE: (size) => `File too large, max accepted size is ${size} MB`,
 
   // extensionRequests.js
   EXTENSION_REQUEST_STATUS: EXTENSION_REQUEST_STATUS,
@@ -177,10 +178,17 @@ module.exports = {
 
   // #website-my
   // navbar.js
-  LOGOUT_URL: LOGIN_URL,
+  LOGOUT_URL: LOGOUT_URL,
   MAIN_SITE_URL: MAIN_SITE_URL,
 
   // signup.js
   GOTO_URL: GOTO_URL,
   AUTH_URL: AUTH_URL,
+
+  // #website-dashboard - link: https://github.com/Real-Dev-Squad/website-dashboard/blob/develop/online-members/constants.js
+  // constants.js -> RDS Api Constants
+  RDS_API_MEMBERS: RDS_API_MEMBERS,
+  RDS_API_TASKS_USERS: RDS_API_TASKS_USERS,
+  RDS_CLOUDINARY_CLOUD_URL: RDS_CLOUDINARY_CLOUD_URL,
+  RDS_SSE_ONLINE_URL: RDS_SSE_ONLINE_URL,
 };
